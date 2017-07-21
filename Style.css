@@ -1,5 +1,6 @@
 ﻿body {
     padding-top: 0px; 
+    width:1267px;
 }
 .navbar-brand {
     font-family: 'Lobster', cursive;
@@ -10,21 +11,21 @@
 }
 .navbar {
     margin-bottom:0px;
-    border-bottom:0px;
+    border:none;
 }
-
 .container-fluid {
-    background-color:cadetblue;
-    padding-bottom:0px;
-    border-bottom:0px;
+    background-color:#419D92;
 }
 .jumbotron {
     padding-top:0px;
     padding-bottom:0px;
     border-top:0px;
+    margin-bottom:0px;
+    height:348px;
 }
 #firstPic {
     position:relative;
+    height:348px;
 }
 h1 {
     position:absolute;
@@ -42,8 +43,22 @@ p {
     font-family: 'Cabin', sans-serif;
 }
 #Versilia {
-    position:fixed;
+    position:absolute;
 
-
+}
+.locations {
+    height:150px;
+    background-color:#419D92;
+}
+h2 {
+    font-family: 'Karla', sans-serif;
+    color:ghostwhite;
+    margin:0px;
+        
+}
+h3{
+    font-family: 'Karla', sans-serif;
+    color:ghostwhite;
+    margin:0px;
 }
 
