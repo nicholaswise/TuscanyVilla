@@ -1,7 +1,49 @@
 ﻿body {
-    padding-top: 70px; 
+    padding-top: 0px; 
 }
-.navbar-logo {
+.navbar-brand {
     font-family: 'Lobster', cursive;
-    text-decoration-color:ghostwhite;
+    font-size: 25px;
+    color:ghostwhite;
+    border-bottom:0px;
+    padding-bottom:0px;
 }
+.navbar {
+    margin-bottom:0px;
+    border-bottom:0px;
+}
+
+.container-fluid {
+    background-color:cadetblue;
+    padding-bottom:0px;
+    border-bottom:0px;
+}
+.jumbotron {
+    padding-top:0px;
+    padding-bottom:0px;
+    border-top:0px;
+}
+#firstPic {
+    position:relative;
+}
+h1 {
+    position:absolute;
+    top:50px;
+    left:150px;
+    margin-top:25px;
+    color:ghostwhite !important;
+    font-family: 'Cabin', sans-serif;
+}
+p {
+    position:absolute;
+    top:140px;
+    left: 165px;
+    color:ghostwhite;
+    font-family: 'Cabin', sans-serif;
+}
+#Versilia {
+    position:fixed;
+
+
+}
+
