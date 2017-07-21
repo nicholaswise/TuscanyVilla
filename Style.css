@@ -1,2 +1,7 @@
 ﻿body {
+    padding-top: 70px; 
+}
+.navbar-logo {
+    font-family: 'Lobster', cursive;
+    text-decoration-color:ghostwhite;
 }
