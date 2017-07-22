@@ -1,6 +1,5 @@
 ﻿body {
     padding-top: 0px; 
-    width:1267px;
 }
 .navbar-brand {
     font-family: 'Lobster', cursive;
@@ -13,8 +12,12 @@
     margin-bottom:0px;
     border:none;
 }
+.nav.navbar-nav.navbar-right a{
+    color:ghostwhite;
+    font-family: 'Cabin', sans-serif;
+}
 .container-fluid {
-    background-color:#419D92;
+    background-color:#747F7F;
 }
 .jumbotron {
     padding-top:0px;
@@ -48,7 +51,7 @@ p {
 }
 .locations {
     height:150px;
-    background-color:#419D92;
+    background-color:#747F7F;
 }
 h2 {
     font-family: 'Karla', sans-serif;
@@ -61,4 +64,33 @@ h3{
     color:ghostwhite;
     margin:0px;
 }
+h3#location1 {
+    color:black;
+    font-family: 'Karla', sans-serif;
+}
+
+h6{
+    font-family: 'Karla', sans-serif;
+}
+.reserveNow1{
+    font-family: 'Karla', sans-serif;
+    
+}
+.row{
+    padding-left:30px;
+    padding-top:50px;
+    padding-right:30px;
+    padding-bottom:50px;
+}
+#secondRow {
+    background-color:#747F7F;
+}
+#secondRow h6 {
+    color:ghostwhite;
+}
+h3#location3 {
+    color:black;
+    font-family:'Karla',sans-serif;
+}
+
 
