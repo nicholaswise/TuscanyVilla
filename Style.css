@@ -26,9 +26,19 @@
     margin-bottom:0px;
     height:348px;
 }
-#firstPic {
-    position:relative;
-    height:348px;
+img#firstPic.img-responsive {
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    max-width:none;
+    
+}
+.col-md-9 {
+    padding-right:0px;
+    padding-left:0px;
+}
+.col-md-3 {
+    padding-right:0px;
+    padding-left:0px;
 }
 h1 {
     position:absolute;
@@ -45,11 +55,17 @@ p {
     color:ghostwhite;
     font-family: 'Cabin', sans-serif;
 }
-#Versilia {
+img#Versilia.img-responsive {
+    padding:0px 0px 0px 0px;
     position:absolute;
-
+    max-width:none;
+    max-height:none;
+}
+div.col-md-9 {
+    width:inherit;
 }
 .locations {
+    position:relative;
     height:150px;
     background-color:#747F7F;
 }
@@ -91,6 +107,13 @@ h6{
 h3#location3 {
     color:black;
     font-family:'Karla',sans-serif;
+}
+h2#Villa {
+    color:#747F7F;
+    font-family: 'Karla', cursive;
+}
+#villabox {
+    padding:50px 5px 5px 5px;
 }
 
 
