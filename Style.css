@@ -97,6 +97,7 @@ h6{
 }
 .row{
     padding:50px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
 }
 #secondRow {
     background-color:#747F7F;
@@ -113,8 +114,7 @@ h2#Villa {
     font-family: 'Karla', cursive;
 }
 #villabox {
-    padding:50px 50px 0px 5px;
-    align-content:center;
+    padding:5px 10px 0px 10px;
 }
 div.carousel-inner {
     height: 150px;
@@ -125,10 +125,10 @@ div#gridRow.row{
     
 }
 div#gridRow2.row{
-    padding:0px 50px 0px 50px;
+    padding:0px 0px 0px 0px;
 }
 div#gridRow3.row{
-    padding:0px 0px 50px 50px;
+    padding:0px 0px 50px 0px;
 }
 
 .Footer {
@@ -144,5 +144,12 @@ div#gridRow3.row{
 span.glyphicon.glyphicon-arrow-up {
     color:white;
 }
+#gridBox.container {
+    margin-right:0px !important;
+    margin-left:230px;
+    padding-right:0px;
+    padding-left:0px;
+}
+
 
 
