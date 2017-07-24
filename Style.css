@@ -1,6 +1,8 @@
 ﻿body {
     padding-top: 0px; 
+    width:1330px;
 }
+
 .navbar-brand {
     font-family: 'Lobster', cursive;
     font-size: 25px;
@@ -22,6 +24,7 @@
 .jumbotron {
     padding-top:0px;
     padding-bottom:0px;
+
     border-top:0px;
     margin-bottom:0px;
     height:348px;
@@ -29,7 +32,7 @@
 img#firstPic.img-responsive {
     padding:0px 0px 0px 0px;
     margin:0px 0px 0px 0px;
-    max-width:none;
+    
     
 }
 .col-md-9 {
@@ -88,7 +91,7 @@ h3#location1 {
 h6{
     font-family: 'Karla', sans-serif;
 }
-.reserveNow1{
+#reserveNow1{
     font-family: 'Karla', sans-serif;
     
 }
@@ -113,7 +116,38 @@ h2#Villa {
     font-family: 'Karla', cursive;
 }
 #villabox {
-    padding:50px 5px 5px 5px;
+    padding:50px 50px 0px 5px;
+    align-content:center;
+}
+div.carousel-inner {
+    height: 150px;
+    background-color: lightgray;
+    padding:40px;
+}
+div#gridRow.row{
+    padding:50px 0px 0px 50px;
+}
+div#gridRow2.row{
+    padding:0px 50px 0px 50px;
+}
+div#gridRow3.row{
+    padding:0px 0px 50px 50px;
+}
+div.col-md-4 {
+    padding: 0px 0px 0px 0px;
+}
+.Footer {
+    background-color:#747F7F;
+    height:200px;
+}
+.Footer h5{
+    color:white;
+    align-content:center;
+    font-family: 'Karla', cursive;
+  
+}
+span.glyphicon.glyphicon-arrow-up {
+    color:white;
 }
 
 
